@@ -1,7 +1,7 @@
 # Development Standards
-## DiDiS - Direct Democracy in Sweden Platform
+## DidiS - Direkt demokrati i Sverige Platform
 
-This directory contains the development standards and guidelines for the DiDiS project. These standards ensure consistency, quality, and maintainability across the codebase.
+This directory contains the development standards and guidelines for the DidiS project. These standards ensure consistency, quality, and maintainability across the codebase.
 
 ### Contents
 - [Code Standards](CODE_STANDARDS.md) - Coding conventions and practices

@@ -1,5 +1,5 @@
 # Project Roles and Responsibilities
-## DiDiS Platform
+## DidiS Platform
 
 ### Core Team
 

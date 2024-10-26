@@ -1,5 +1,5 @@
 # Security Standards
-## DiDiS Security Requirements
+## DidiS Security Requirements
 
 ### Authentication
 

@@ -1,7 +1,7 @@
-# DiDiS (Direct Democracy in Sweden)
+# DidiS (Direkt demokrati i Sverige)
 ## Digital Democracy Platform for Sweden
 
-DiDiS is an open-source digital democracy platform designed specifically for the Swedish context, integrating with existing digital infrastructure and democratic traditions while enabling new forms of civic participation.
+DidiS is an open-source digital democracy platform designed specifically for the Swedish context, integrating with existing digital infrastructure and democratic traditions while enabling new forms of civic participation.
 
 ### Vision
 To create a secure, accessible, and effective platform for direct democratic participation in Sweden, building on existing democratic strengths while enabling new forms of civic engagement.
@@ -35,10 +35,10 @@ To create a secure, accessible, and effective platform for direct democratic par
 #### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/DiDiS/DiDiS.git
+git clone https://github.com/DidiS/DidiS.git
 
 # Install dependencies
-cd DiDiS
+cd DidiS
 npm install
 
 # Set up environment variables
@@ -50,7 +50,7 @@ npm run dev
 
 ### Project Structure
 ```
-DiDiS/
+DidiS/
 ├── apps/          # Application components
 ├── packages/      # Shared packages
 ├── services/      # Microservices
@@ -83,7 +83,7 @@ We welcome contributions! Please see our [Contributing Guidelines](docs/CONTRIBU
 ### Development Status
 🚧 **Current Status**: Early Development
 
-See our [Project Board](https://github.com/DiDiS/DiDiS/projects/1) for current progress and planned features.
+See our [Project Board](https://github.com/DidiS/DidiS/projects/1) for current progress and planned features.
 
 ### Testing
 ```bash
@@ -104,15 +104,15 @@ See our [Deployment Guide](docs/deployment/README.md) for detailed instructions 
 - Monitoring setup
 
 ### Related Projects
-- [Municipal Integration Examples](https://github.com/DiDiS/municipal-examples)
-- [BankID Integration Module](https://github.com/DiDiS/bankid-auth)
-- [Democracy Pattern Library](https://github.com/DiDiS/democracy-patterns)
+- [Municipal Integration Examples](https://github.com/DidiS/municipal-examples)
+- [BankID Integration Module](https://github.com/DidiS/bankid-auth)
+- [Democracy Pattern Library](https://github.com/DidiS/democracy-patterns)
 
 ### Support and Community
-- [Documentation](https://docs.DiDiS.se)
-- [Discussions](https://github.com/DiDiS/DiDiS/discussions)
-- [Issue Tracker](https://github.com/DiDiS/DiDiS/issues)
-- [Matrix Chat](https://matrix.to/#/#DiDiS:matrix.org)
+- [Documentation](https://docs.DidiS.se)
+- [Discussions](https://github.com/DidiS/DidiS/discussions)
+- [Issue Tracker](https://github.com/DidiS/DidiS/issues)
+- [Matrix Chat](https://matrix.to/#/#DidiS:matrix.org)
 
 ### License
 This project is licensed under the AGPL-3.0 License - see the [LICENSE](LICENSE) file for details.

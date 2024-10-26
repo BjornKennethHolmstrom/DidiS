@@ -1,5 +1,5 @@
 # Communication Strategy
-## DiDiS - Direct Democracy in Sweden Platform
+## DidiS - Direkt demokrati i Sverige Platform
 
 ### Current Phase: Silent Development
 

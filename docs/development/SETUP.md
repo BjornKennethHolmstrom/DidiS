@@ -23,10 +23,10 @@ For detailed coding standards and requirements, please refer to our [Development
 ### 1. Repository Setup
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/DiDiS.git
+git clone https://github.com/your-username/DidiS.git
 
 # Navigate to project directory
-cd DiDiS
+cd DidiS
 
 # Install dependencies
 npm install

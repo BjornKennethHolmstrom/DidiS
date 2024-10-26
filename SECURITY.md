@@ -2,7 +2,7 @@
 
 ## Security Priority
 
-Security is a core priority for the Direct Democracy in Sweden (DiDiS) platform. We are committed to:
+Security is a core priority for the Direkt demokrati i Sverige (DidiS) platform. We are committed to:
 - Protecting user data
 - Ensuring vote integrity
 - Maintaining system security

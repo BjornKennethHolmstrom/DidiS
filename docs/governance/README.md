@@ -1,5 +1,5 @@
 # DiDoS Governance
-## Direct Democracy in Sweden Platform
+## Direkt demokrati i Sverige Platform
 
 This directory contains the governance documentation for the SweDD project. The documentation outlines how the project is managed, developed, and maintained.
 

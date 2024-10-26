@@ -1,5 +1,5 @@
 # Detailed Phase Specifications - Expansion
-## DiDiS Project
+## DidiS Project
 
 ### Phase 5: Expansion (Months 13-18)
 

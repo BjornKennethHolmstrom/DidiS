@@ -1,5 +1,5 @@
 # Detailed Phase Specifications - Integration
-## DiDiS Project
+## DidiS Project
 
 ### Phase 3: Integration (Months 7-9)
 

@@ -1,5 +1,5 @@
 # Decision Making Processes
-## DiDiS Platform
+## DidiS Platform
 
 ### Technical Decision Process
 

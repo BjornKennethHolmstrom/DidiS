@@ -1,5 +1,5 @@
 # Detailed Phase Specifications - Pilot
-## DiDiS Project
+## DidiS Project
 
 ### Phase 4: Pilot Program (Months 10-12)
 

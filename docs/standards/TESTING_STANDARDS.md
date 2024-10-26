@@ -1,5 +1,5 @@
 # Testing Standards
-## DiDiS Testing Requirements
+## DidiS Testing Requirements
 
 ### Unit Tests
 

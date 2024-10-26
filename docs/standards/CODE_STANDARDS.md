@@ -1,5 +1,5 @@
 # Code Standards
-## DiDiS Development Guidelines
+## DidiS Development Guidelines
 
 ### JavaScript/TypeScript Standards
 

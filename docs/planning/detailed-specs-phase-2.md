@@ -1,5 +1,5 @@
 # Detailed Phase Specifications - Core Features
-## DiDiS Project
+## DidiS Project
 
 ### Phase 2: Core Features (Months 4-6)
 

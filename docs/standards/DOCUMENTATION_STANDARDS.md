@@ -1,5 +1,5 @@
 # Documentation Standards
-## DiDiS Documentation Guidelines
+## DidiS Documentation Guidelines
 
 ### Code Documentation
 

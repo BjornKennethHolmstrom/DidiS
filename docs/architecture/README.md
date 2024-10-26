@@ -1,4 +1,4 @@
-# DiDiS Architecture Overview
+# DidiS Architecture Overview
 
 ## System Architecture
 

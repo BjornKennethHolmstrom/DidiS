@@ -1,5 +1,5 @@
 # Detailed Phase Specifications - Foundation
-## DiDiS Project
+## DidiS Project
 
 ### Phase 1: Foundation (Months 1-3)
 

@@ -1,5 +1,5 @@
 # Development and Management Processes
-## DiDiS Platform
+## DidiS Platform
 
 ### Development Workflow
 

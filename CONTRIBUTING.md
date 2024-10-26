@@ -1,6 +1,6 @@
-# Contributing to DiDiS
+# Contributing to DidiS
 
-Thank you for your interest in contributing to the Direct Democracy in Sweden (DiDiS) platform. While the project is currently in early development with limited external contributions, this document outlines the planned contribution process for future reference.
+Thank you for your interest in contributing to the Direkt demokrati i Sverige (DidiS) platform. While the project is currently in early development with limited external contributions, this document outlines the planned contribution process for future reference.
 
 ## Current Development Status
 

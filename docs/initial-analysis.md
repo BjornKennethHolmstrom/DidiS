@@ -1,4 +1,4 @@
-# Direct Democracy Platform Strategy
+# Direct democracy Platform Strategy
 ## Swedish Implementation Analysis
 
 ### Context Advantages

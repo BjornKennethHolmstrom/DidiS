@@ -1,5 +1,5 @@
-# DiDiS Project Development Plan
-## Direct Democracy in Sweden Platform
+# DidiS Project Development Plan
+## Direkt demokrati i Sverige Platform
 
 ### Phase 0: Project Setup and Planning
 - [x] Create initial project structure

@@ -1,5 +1,5 @@
 # Version Strategy
-## DiDiS Project
+## DidiS Project
 
 ### Development Phase Versions
 
