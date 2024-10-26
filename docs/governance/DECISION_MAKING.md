@@ -1,5 +1,5 @@
 # Decision Making Processes
-## SweDD Platform
+## DiDiS Platform
 
 ### Technical Decision Process
 

@@ -1,5 +1,5 @@
 # Testing Standards
-## SweDD Testing Requirements
+## DiDiS Testing Requirements
 
 ### Unit Tests
 

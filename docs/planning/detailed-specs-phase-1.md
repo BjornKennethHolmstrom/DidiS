@@ -1,5 +1,5 @@
 # Detailed Phase Specifications - Foundation
-## SweDD Project
+## DiDiS Project
 
 ### Phase 1: Foundation (Months 1-3)
 

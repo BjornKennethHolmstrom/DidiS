@@ -1,5 +1,5 @@
 # Security Standards
-## SweDD Security Requirements
+## DiDiS Security Requirements
 
 ### Authentication
 

@@ -2,7 +2,7 @@
 
 ## Our Pledge
 
-The Swedish Direct Democracy (SweDD) platform is committed to being an inclusive and welcoming environment for all contributors, users, and participants. We pledge to make participation in our project a harassment-free experience, regardless of:
+The Direct Democracy in Sweden (DiDiS) platform is committed to being an inclusive and welcoming environment for all contributors, users, and participants. We pledge to make participation in our project a harassment-free experience, regardless of:
 
 - Age
 - Disability

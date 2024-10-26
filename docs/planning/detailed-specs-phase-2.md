@@ -1,5 +1,5 @@
 # Detailed Phase Specifications - Core Features
-## SweDD Project
+## DiDiS Project
 
 ### Phase 2: Core Features (Months 4-6)
 

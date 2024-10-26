@@ -1,5 +1,5 @@
 # Changelog
-All notable changes to the SweDD project will be documented in this file.
+All notable changes to the DiDiS project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -25,7 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Messaging framework and guidelines
 - Strategic considerations for project visibility
 
-[0.0.5]: https://github.com/BjornKennethHolmstrom/SweDD/compare/v0.0.4...v0.0.5
+[0.0.5]: https://github.com/BjornKennethHolmstrom/DiDiS/compare/v0.0.4...v0.0.5
 
 ## [0.0.4] - 2024-01-20
 ### Added
@@ -36,7 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - docs/standards/TESTING_STANDARDS.md with testing procedures
   - docs/standards/SECURITY_STANDARDS.md with security requirements
 
-[0.0.4]: https://github.com/BjornKennethHolmstrom/SweDD/compare/v0.0.3...v0.0.4
+[0.0.4]: https://github.com/BjornKennethHolmstrom/DiDiS/compare/v0.0.3...v0.0.4
 
 ### Updated
 - README.md with standards documentation reference
@@ -70,7 +70,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Decision-making processes
 - Quality assurance procedures
 
-[0.0.3]: https://github.com/BjornKennethHolmstrom/SweDD/compare/v0.0.2...v0.0.3
+[0.0.3]: https://github.com/BjornKennethHolmstrom/DiDiS/compare/v0.0.2...v0.0.3
 
 ## [0.0.2] - 2024-10-26
 ### Added
@@ -141,6 +141,6 @@ Types:
 - test: Adding missing tests
 - chore: Changes to the build process or auxiliary tools
 
-[0.0.2]: https://github.com/BjornKennethHolmstrom/SweDD/compare/v0.0.1...v0.0.2
-[0.0.1]: https://github.com/BjornKennethHolmstrom/SweDD/compare/v0.0.0...v0.0.1
-[0.0.0]: https://github.com/BjornKennethHolmstrom/SweDD/releases/tag/v0.0.0
+[0.0.2]: https://github.com/BjornKennethHolmstrom/DiDiS/compare/v0.0.1...v0.0.2
+[0.0.1]: https://github.com/BjornKennethHolmstrom/DiDiS/compare/v0.0.0...v0.0.1
+[0.0.0]: https://github.com/BjornKennethHolmstrom/DiDiS/releases/tag/v0.0.0

@@ -1,5 +1,5 @@
 # Detailed Phase Specifications - Pilot
-## SweDD Project
+## DiDiS Project
 
 ### Phase 4: Pilot Program (Months 10-12)
 

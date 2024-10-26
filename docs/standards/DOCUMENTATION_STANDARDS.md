@@ -1,5 +1,5 @@
 # Documentation Standards
-## SweDD Documentation Guidelines
+## DiDiS Documentation Guidelines
 
 ### Code Documentation
 

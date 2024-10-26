@@ -1,5 +1,5 @@
 # Project Roles and Responsibilities
-## SweDD Platform
+## DiDiS Platform
 
 ### Core Team
 

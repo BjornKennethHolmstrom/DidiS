@@ -1,5 +1,5 @@
 # Version Strategy
-## SweDD Project
+## DiDiS Project
 
 ### Development Phase Versions
 

@@ -1,7 +1,7 @@
 # Development Standards
-## SweDD - Swedish Direct Democracy Platform
+## DiDiS - Direct Democracy in Sweden Platform
 
-This directory contains the development standards and guidelines for the SweDD project. These standards ensure consistency, quality, and maintainability across the codebase.
+This directory contains the development standards and guidelines for the DiDiS project. These standards ensure consistency, quality, and maintainability across the codebase.
 
 ### Contents
 - [Code Standards](CODE_STANDARDS.md) - Coding conventions and practices

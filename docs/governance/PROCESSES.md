@@ -1,5 +1,5 @@
 # Development and Management Processes
-## SweDD Platform
+## DiDiS Platform
 
 ### Development Workflow
 

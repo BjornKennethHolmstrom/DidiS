@@ -1,4 +1,4 @@
-# SweDD Architecture Overview
+# DiDiS Architecture Overview
 
 ## System Architecture
 

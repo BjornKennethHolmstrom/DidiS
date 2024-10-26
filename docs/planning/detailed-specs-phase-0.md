@@ -1,5 +1,5 @@
 # Detailed Phase Specifications - Project Setup and Planning
-## SweDD Project
+## DiDiS Project
 
 ### Phase 0: Project Setup and Planning
 
