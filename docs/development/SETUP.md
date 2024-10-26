@@ -1,5 +1,7 @@
 # Development Environment Setup
 
+For detailed coding standards and requirements, please refer to our [Development Standards](../standards/README.md).
+
 ## Prerequisites
 
 ### Required Software

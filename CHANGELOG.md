@@ -4,6 +4,30 @@ All notable changes to the SweDD project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.4] - 2024-01-20
+### Added
+- Comprehensive development standards
+  - docs/standards/README.md with standards overview
+  - docs/standards/CODE_STANDARDS.md with coding guidelines
+  - docs/standards/DOCUMENTATION_STANDARDS.md with documentation requirements
+  - docs/standards/TESTING_STANDARDS.md with testing procedures
+  - docs/standards/SECURITY_STANDARDS.md with security requirements
+
+[0.0.4]: https://github.com/BjornKennethHolmstrom/SweDD/compare/v0.0.3...v0.0.4
+
+### Updated
+- README.md with standards documentation reference
+- Cross-references in existing documentation
+- Development setup guidelines
+- API documentation with standards references
+
+### Documented
+- Coding conventions and practices
+- Documentation requirements
+- Testing procedures
+- Security standards
+- Implementation guidelines
+
 ## [0.0.3] - 2024-01-20
 ### Added
 - Project governance documentation

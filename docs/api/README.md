@@ -10,6 +10,8 @@
 - Rate limiting
 - Comprehensive error handling
 
+All API development must follow our [Code Standards](../standards/CODE_STANDARDS.md) and [Security Standards](../standards/SECURITY_STANDARDS.md).
+
 ## Authentication
 
 ### BankID Authentication

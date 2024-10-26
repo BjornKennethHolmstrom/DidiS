@@ -3,6 +3,12 @@
 
 ### Development Workflow
 
+All development must adhere to our established [Development Standards](../standards/README.md), including:
+- [Code Standards](../standards/CODE_STANDARDS.md)
+- [Documentation Standards](../standards/DOCUMENTATION_STANDARDS.md)
+- [Testing Standards](../standards/TESTING_STANDARDS.md)
+- [Security Standards](../standards/SECURITY_STANDARDS.md)
+
 #### 1. Code Development
 ```bash
 # Feature development flow
