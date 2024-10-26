@@ -88,6 +88,8 @@ npm run lint
 npm run format
 ```
 
+For detailed information about development processes and workflows, see our [Development Processes](../governance/PROCESSES.md) documentation.
+
 ## Troubleshooting
 
 ### Common Issues

@@ -102,3 +102,5 @@
 - Production environment
 - Monitoring system
 
+Development processes and decision-making procedures are detailed in our [Governance Documentation](../governance/README.md).
+

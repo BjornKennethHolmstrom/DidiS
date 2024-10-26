@@ -55,8 +55,21 @@ swedd/
 ├── packages/      # Shared packages
 ├── services/      # Microservices
 ├── docs/          # Documentation
+|   ├── planning/         # Project plans and phases
+|   ├── architecture/     # System architecture
+|   ├── development/      # Development setup and guidelines
+|   ├── api/              # API documentation
+|   ├── deployment/       # Deployment procedures
+|   └── governance/       # Project governance and processes
 └── infrastructure/# Infrastructure code
 ```
+
+### Project Governance
+The project is currently maintained by a single developer with AI assistance. See our [Governance Documentation](docs/governance/README.md) for details about:
+- Project roles and responsibilities
+- Decision-making processes
+- Development workflows
+- Quality assurance procedures
 
 ### Contributing
 We welcome contributions! Please see our [Contributing Guidelines](docs/CONTRIBUTING.md) for details on:

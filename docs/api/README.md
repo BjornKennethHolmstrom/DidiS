@@ -107,3 +107,5 @@ POST /api/v1/discussions/{id}/comments
 - Security testing
 - Documentation testing
 
+API changes follow our established development processes. See [Decision Making](../governance/DECISION_MAKING.md) for details about our approach to technical decisions.
+
