@@ -17,6 +17,8 @@ SweDD is currently developed by a single developer with AI assistance. The gover
 - Supportive of AI-assisted development
 - Scalable for future growth
 
+For details about our communication strategy and stakeholder engagement, see our [Communication Documentation](../communication/README.md).
+
 ### Quality Standards
 
 The project maintains high standards through:

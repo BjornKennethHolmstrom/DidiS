@@ -70,6 +70,8 @@ kubectl apply -f k8s/frontend/
 
 Deployment decisions and processes follow our established governance model. See [Processes](../governance/PROCESSES.md) for detailed procedures.
 
+Deployment communication follows our established [Communication Framework](../communication/README.md) and [Engagement Plan](../communication/ENGAGEMENT_PLAN.md).
+
 ## Monitoring
 
 ### System Monitoring

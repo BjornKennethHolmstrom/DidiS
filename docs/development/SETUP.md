@@ -92,6 +92,8 @@ npm run format
 
 For detailed information about development processes and workflows, see our [Development Processes](../governance/PROCESSES.md) documentation.
 
+For information about how we communicate about development, see our [Communication Strategy](../communication/README.md) and [Messaging Framework](../communication/MESSAGING_FRAMEWORK.md).
+
 ## Troubleshooting
 
 ### Common Issues

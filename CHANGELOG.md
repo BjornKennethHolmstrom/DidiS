@@ -4,6 +4,29 @@ All notable changes to the SweDD project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.5] - 2024-01-20
+### Added
+- Communication strategy documentation
+  - docs/communication/README.md with strategy overview
+  - docs/communication/STAKEHOLDER_ANALYSIS.md with stakeholder mapping
+  - docs/communication/ENGAGEMENT_PLAN.md with outreach strategy
+  - docs/communication/MESSAGING_FRAMEWORK.md with communication guidelines
+
+### Updated
+- README.md with communication documentation reference
+- Cross-references in existing documentation
+- Governance documentation with communication references
+- Development and deployment guides with communication links
+
+### Documented
+- Current "silent development" phase strategy
+- Stakeholder analysis and engagement plans
+- Future communication channels
+- Messaging framework and guidelines
+- Strategic considerations for project visibility
+
+[0.0.5]: https://github.com/BjornKennethHolmstrom/SweDD/compare/v0.0.4...v0.0.5
+
 ## [0.0.4] - 2024-01-20
 ### Added
 - Comprehensive development standards

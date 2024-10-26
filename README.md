@@ -61,7 +61,8 @@ swedd/
 |   ├── api/              # API documentation
 |   ├── deployment/       # Deployment procedures
 |   ├── governance/       # Project governance and processes
-|   └── standards/        # Development standards and guidelines
+|   ├── standards/        # Development standards and guidelines
+|   └── communication/    # Communication strategy and plans
 └── infrastructure/# Infrastructure code
 ```
 
