@@ -55,16 +55,230 @@ DidiS/
 ├── packages/      # Shared packages
 ├── services/      # Microservices
 ├── docs/          # Documentation
+└── infrastructure/# Infrastructure code
+.
+├── apps
+│   ├── api
+│   │   ├── controllers
+│   │   ├── middleware
+│   │   └── routes
+│   ├── mobile
+│   └── web
+│       ├── components
+│       ├── pages
+│       └── public
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── docker
+│   ├── backend.dockerfile
+│   ├── frontend.dockerfile
+│   ├── start-backend.sh
+│   └── wait-for-it.sh
+├── docker-compose.yml
+├── docs
 |   ├── planning/         # Project plans and phases
 |   ├── architecture/     # System architecture
 |   ├── development/      # Development setup and guidelines
+│   │   ├── README.md
+│   │   └── SETUP.md
 |   ├── api/              # API documentation
+│   │   └── README.md
 |   ├── deployment/       # Deployment procedures
+│   │   └── README.md
+│   ├── initial-analysis.md
 |   ├── governance/       # Project governance and processes
+│   │   ├── DECISION_MAKING.md
+│   │   ├── PROCESSES.md
+│   │   ├── README.md
+│   │   └── ROLES.md
 |   ├── standards/        # Development standards and guidelines
+│   │   ├── CODE_STANDARDS.md
+│   │   ├── DOCUMENTATION_STANDARDS.md
+│   │   ├── README.md
+│   │   ├── SECURITY_STANDARDS.md
+│   │   └── TESTING_STANDARDS.md
 |   └── communication/    # Communication strategy and plans
-└── infrastructure/# Infrastructure code
+│   │   ├── ENGAGEMENT_PLAN.md
+│   │   ├── MESSAGING_FRAMEWORK.md
+│   │   ├── README.md
+│   │   └── STAKEHOLDER_ANALYSIS.md
+│   ├── planning          # Project planning
+│   │   ├── detailed-specs-phase-0.md
+│   │   ├── detailed-specs-phase-1.md
+│   │   ├── detailed-specs-phase-2.md
+│   │   ├── detailed-specs-phase-3.md
+│   │   ├── detailed-specs-phase-4.md
+│   │   ├── detailed-specs-phase-5.md
+│   │   ├── project-plan.md
+│   │   └── version-strategy.md
+│   └── user
+├── infrastructure
+│   ├── kubernetes
+│   └── terraform
+├── LICENSE
+├── packages
+│   ├── core
+│   │   ├── auth
+│   │   ├── deliberation
+│   │   ├── proposals
+│   │   └── voting
+│   ├── ui
+│   └── utils
+├── README.md
+├── scripts
+│   ├── deploy
+│   ├── setup
+│   └── test
+├── SECURITY.md
+├── services
+│   ├── analytics
+│   ├── integration
+│   └── notification
+├── src
+│   ├── backend
+│   │   ├── knexfile.ts
+│   │   ├── migrations
+│   │   │   └── 20241102_initial_schema.ts
+│   │   ├── package.json
+│   │   ├── package-lock.json
+│   │   ├── src
+│   │   │   ├── config
+│   │   │   │   └── database.ts
+│   │   │   ├── controllers
+│   │   │   ├── index.ts
+│   │   │   ├── middleware
+│   │   │   ├── models
+│   │   │   ├── routes
+│   │   │   │   ├── index.ts
+│   │   │   │   └── test.ts
+│   │   │   ├── services
+│   │   │   ├── types
+│   │   │   └── utils
+│   │   └── tsconfig.json
+│   └── frontend
+│       ├── app
+│       │   ├── design
+│       │   │   └── page.tsx
+│       │   ├── favicon.ico
+│       │   ├── fonts
+│       │   │   ├── GeistMonoVF.woff
+│       │   │   └── GeistVF.woff
+│       │   ├── globals.css
+│       │   ├── layout.tsx
+│       │   └── page.tsx
+│       ├── components
+│       │   ├── auth
+│       │   ├── common
+│       │   ├── layout
+│       │   │   ├── footer.tsx
+│       │   │   ├── header.tsx
+│       │   │   └── main-layout.tsx
+│       │   └── ui
+│       │       ├── button.tsx
+│       │       ├── card.tsx
+│       │       └── input.tsx
+│       ├── contexts
+│       ├── features
+│       ├── hooks
+│       │   └── useTranslations.ts
+│       ├── lib
+│       │   ├── language.ts
+│       │   └── utils.ts
+│       ├── next.config.ts
+│       ├── next-env.d.ts
+│       ├── package.json
+│       ├── package-lock.json
+│       ├── postcss.config.mjs
+│       ├── public
+│       │   ├── file.svg
+│       │   ├── globe.svg
+│       │   ├── next.svg
+│       │   ├── vercel.svg
+│       │   └── window.svg
+│       ├── README.md
+│       ├── services
+│       ├── styles
+│       │   ├── theme.ts
+│       │   └── tokens.ts
+│       ├── tailwind.config.ts
+│       ├── translations
+│       │   └── sv.ts
+│       ├── tsconfig.json
+│       ├── types
+│       └── utils
+│           └── cn.ts
+├── tests
+│   ├── e2e
+│   ├── integration
+│   └── unit
+└── tools
+    ├── analyzers
+    └── generators
+
 ```
+
+### Docker Development Environment
+
+We use Docker for consistent development environments and easier deployment.
+
+#### Prerequisites
+- Docker
+- Docker Compose
+- Git
+
+#### Quick Start with Docker
+```bash
+# Clone the repository
+git clone https://github.com/DidiS/DidiS.git
+cd DidiS
+
+# Copy environment file
+cp .env.example .env
+
+# Start the development environment
+docker compose up --build
+
+# The following services will be available:
+# - Frontend: http://localhost:3000
+# - Backend API: http://localhost:4000
+# - PostgreSQL: localhost:5435
+```
+
+#### Common Docker Commands
+```bash
+# Start all services
+docker compose up
+
+# Start services in background
+docker compose up -d
+
+# View logs
+docker compose logs -f
+
+# Stop all services
+docker compose down
+
+# Rebuild containers
+docker compose up --build
+
+# Access PostgreSQL
+docker compose exec db psql -U didis -d didis_dev
+
+# Access service shell
+docker compose exec frontend sh
+docker compose exec backend sh
+```
+
+#### Volumes and Persistence
+The development environment uses Docker volumes for:
+- PostgreSQL data
+- Node modules
+- Next.js build cache
+
+#### Known Issues
+- If you encounter permission issues with .next folder, run: `sudo rm -rf src/frontend/.next`
+- PostgreSQL port 5432 might be in use locally; we use 5435 by default
 
 ### Project Governance
 The project is currently maintained by a single developer with AI assistance. See our [Governance Documentation](docs/governance/README.md) for details about:

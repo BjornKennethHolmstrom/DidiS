@@ -4,6 +4,26 @@ All notable changes to the DidiS project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.6] - 2024-11-02
+### Added
+- Frontend foundation
+  - Basic design system with Swedish styling
+  - Component library with essential components
+  - Internationalization support
+  - Typography and color system
+  - Responsive layout structure
+
+### Updated
+- Development environment
+  - Docker configuration for frontend and backend
+  - Database setup with initial schema
+  - Development tools (ESLint, Prettier, TypeScript)
+
+### Fixed
+- Docker volume mounting issues
+- Component styling and accessibility
+- Translation system implementation
+
 ## [0.0.5] - 2024-01-20
 ### Added
 - Communication strategy documentation
@@ -25,8 +45,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Messaging framework and guidelines
 - Strategic considerations for project visibility
 
-[0.0.5]: https://github.com/BjornKennethHolmstrom/DidiS/compare/v0.0.4...v0.0.5
-
 ## [0.0.4] - 2024-01-20
 ### Added
 - Comprehensive development standards
@@ -35,8 +53,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - docs/standards/DOCUMENTATION_STANDARDS.md with documentation requirements
   - docs/standards/TESTING_STANDARDS.md with testing procedures
   - docs/standards/SECURITY_STANDARDS.md with security requirements
-
-[0.0.4]: https://github.com/BjornKennethHolmstrom/DidiS/compare/v0.0.3...v0.0.4
 
 ### Updated
 - README.md with standards documentation reference
@@ -69,8 +85,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - AI assistance integration
 - Decision-making processes
 - Quality assurance procedures
-
-[0.0.3]: https://github.com/BjornKennethHolmstrom/DidiS/compare/v0.0.2...v0.0.3
 
 ## [0.0.2] - 2024-10-26
 ### Added
@@ -141,6 +155,3 @@ Types:
 - test: Adding missing tests
 - chore: Changes to the build process or auxiliary tools
 
-[0.0.2]: https://github.com/BjornKennethHolmstrom/DidiS/compare/v0.0.1...v0.0.2
-[0.0.1]: https://github.com/BjornKennethHolmstrom/DidiS/compare/v0.0.0...v0.0.1
-[0.0.0]: https://github.com/BjornKennethHolmstrom/DidiS/releases/tag/v0.0.0

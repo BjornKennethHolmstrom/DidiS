@@ -1,0 +1,46 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend.dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src/frontend:/app:delegated
+      - frontend_node_modules:/app/node_modules
+      - frontend_next:/app/.next
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: .
+      dockerfile: docker/backend.dockerfile
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./src/backend:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - DATABASE_URL=postgresql://didis:development@db:5432/didis_dev
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15-alpine
+    ports:
+      - "5435:5432"  # External:Internal ports
+    environment:
+      - POSTGRES_USER=didis
+      - POSTGRES_PASSWORD=development
+      - POSTGRES_DB=didis_dev
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  frontend_node_modules:
+  frontend_next:
+  postgres_data:
