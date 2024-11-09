@@ -1,5 +1,5 @@
-# src/utils/cn.ts
-import { clsx, type ClassValue } from 'clsx'
+// utils/cn.ts
+import { type ClassValue, clsx } from 'clsx'
 import { twMerge } from 'tailwind-merge'
 
 export function cn(...inputs: ClassValue[]) {

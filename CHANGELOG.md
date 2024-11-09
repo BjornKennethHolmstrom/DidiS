@@ -4,6 +4,43 @@ All notable changes to the DidiS project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.7] - 2024-11-09
+### Added
+- Complex UI Components
+  - Rich text editor with formatting tools
+  - Custom SVG-based activity chart
+  - Data table component
+  - Modal dialog system
+  - Toggle switch component
+  - Notification system
+  - Interest tag component
+
+- User Dashboard Features
+  - Profile page with personal information management
+  - Settings page with notification preferences
+  - Activity tracking and visualization
+  - Interest management system
+
+### Enhanced
+- Main Layout System
+  - Consistent navigation across pages
+  - User menu integration
+  - Proper routing setup
+  - Responsive container system
+
+### Fixed
+- React 19 compatibility issues
+  - Custom implementation for charts (replacing recharts)
+  - Native form handling (replacing react-hook-form)
+  - Dependency-free component solutions
+
+### Updated
+- Frontend Architecture
+  - Enhanced component organization
+  - Feature-based folder structure
+  - Improved type definitions
+  - Better state management
+
 ## [0.0.6] - 2024-11-02
 ### Added
 - Frontend foundation

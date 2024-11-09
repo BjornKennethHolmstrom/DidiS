@@ -78,11 +78,11 @@
       - [x] Forms
       - [x] Cards
       - [x] Navigation
-    - [ ] Complex components
-      - [ ] Data tables
-      - [ ] Charts
-      - [ ] Modal dialogs
-      - [ ] Rich text editor
+    - [x] Complex components
+      - [x] Data tables
+      - [x] Charts
+      - [x] Modal dialogs
+      - [x] Rich text editor
 
 - [x] Core Application
   - [x] Application Shell
@@ -91,11 +91,11 @@
     - [x] Footer
     - [x] Layout system
   
-  - [ ] User Dashboard
-    - [ ] Overview page
-    - [ ] User profile
-    - [ ] Settings page
-    - [ ] Notification center
+  - [x] User Dashboard
+    - [x] Overview page
+    - [x] User profile
+    - [x] Settings page
+    - [x] Notification center
 
 #### Backend Development
 - [ ] API Architecture
