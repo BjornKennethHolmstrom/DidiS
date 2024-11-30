@@ -162,15 +162,24 @@ DidiS/
 │   │   └── tsconfig.json
 │   └── frontend
 │       ├── app
+│       │   ├── dashboard
+│       │   │   ├── layout.tsx
+│       │   │   └── page.tsx
 │       │   ├── design
+│       │   │   └── page.tsx
+│       │   ├── example
 │       │   │   └── page.tsx
 │       │   ├── favicon.ico
 │       │   ├── fonts
 │       │   │   ├── GeistMonoVF.woff
 │       │   │   └── GeistVF.woff
 │       │   ├── globals.css
+│       │   ├── installningar
+│       │   │   └── page.tsx
 │       │   ├── layout.tsx
-│       │   └── page.tsx
+│       │   ├── page.tsx
+│       │   └── profil
+│       │       └── page.tsx
 │       ├── components
 │       │   ├── auth
 │       │   ├── common
@@ -179,11 +188,31 @@ DidiS/
 │       │   │   ├── header.tsx
 │       │   │   └── main-layout.tsx
 │       │   └── ui
+│       │       ├── activity-chart.tsx
 │       │       ├── button.tsx
 │       │       ├── card.tsx
-│       │       └── input.tsx
+│       │       ├── data-table.tsx
+│       │       ├── input.tsx
+│       │       ├── modal.tsx
+│       │       ├── notification.tsx
+│       │       ├── rich-text-editor
+│       │       │   ├── index.tsx
+│       │       │   ├── toolbar-button.tsx
+│       │       │   ├── toolbar.tsx
+│       │       │   └── types.ts
+│       │       └── toggle.tsx
 │       ├── contexts
 │       ├── features
+│       │   ├── dashboard
+│       │   │   ├── components
+│       │   │   │   └── dashboard-layout.tsx
+│       │   │   └── pages
+│       │   │       └── dashboard-page.tsx
+│       │   └── profile
+│       │       └── components
+│       │           ├── activity-list.tsx
+│       │           ├── interest-tag.tsx
+│       │           └── profile-section.tsx
 │       ├── hooks
 │       │   └── useTranslations.ts
 │       ├── lib

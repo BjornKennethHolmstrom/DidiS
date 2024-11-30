@@ -1,4 +1,5 @@
 // app/layout.tsx
+import { Providers } from '@/components/providers/providers'
 import './globals.css'
 
 export default function RootLayout({
@@ -9,7 +10,9 @@ export default function RootLayout({
   return (
     <html lang="sv">
       <body className="min-h-screen bg-background font-sans antialiased">
-        {children}
+        <Providers>
+          {children}
+        </Providers>
       </body>
     </html>
   )

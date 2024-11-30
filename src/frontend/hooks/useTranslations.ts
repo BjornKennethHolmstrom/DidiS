@@ -1,12 +1,10 @@
 // hooks/useTranslations.ts
-import { getLocale } from '../lib/language'
-import { sv } from '../translations/sv'
+'use client'
 
-const translations = {
-  sv,
-}
+import { useLanguage } from '@/contexts/language-context'
+import { translations } from '@/translations'
 
 export function useTranslations() {
-  const locale = getLocale()
+  const { locale } = useLanguage()
   return translations[locale]
 }

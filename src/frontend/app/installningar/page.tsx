@@ -9,6 +9,7 @@ import { Toggle } from '@/components/ui/toggle'
 import { Notification } from '@/components/ui/notification'
 import { useTranslations } from '@/hooks/useTranslations'
 import { Bell, Globe, Lock, Eye, Languages } from 'lucide-react'
+import { LanguageSwitcher } from '@/components/ui/language-switcher';
 
 interface SettingsState {
   notifications: {
@@ -194,22 +195,7 @@ export default function SettingsPage() {
 
             {/* Language & Region */}
             <SettingsSection title={t.settings?.sections.language.title}>
-              <div className="space-y-4">
-                <div className="flex items-center gap-2">
-                  <Languages className="h-5 w-5 text-muted-foreground" />
-                  <select 
-                    className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
-                    value={settings.language.interface}
-                    onChange={(e) => setSettings(prev => ({
-                      ...prev,
-                      language: { ...prev.language, interface: e.target.value }
-                    }))}
-                  >
-                    <option value="Svenska">Svenska</option>
-                    <option value="English">English</option>
-                  </select>
-                </div>
-              </div>
+              <LanguageSwitcher variant="full" />
             </SettingsSection>
 
             <div className="flex justify-end gap-4">

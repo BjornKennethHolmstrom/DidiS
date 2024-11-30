@@ -1,12 +1,13 @@
 // src/app/page.tsx
 'use client'
 
-import { MainLayout } from '@/components/layout/main-layout'
-import { Button } from '@/components/ui/button'
-import { useTranslations } from '@/hooks/useTranslations'
+import Link from 'next/link';
+import { MainLayout } from '@/components/layout/main-layout';
+import { Button } from '@/components/ui/button';
+import { useTranslations } from '@/hooks/useTranslations';
 
 export default function Home() {
-  const t = useTranslations()
+  const t = useTranslations();
   
   return (
     <MainLayout>
@@ -19,13 +20,11 @@ export default function Home() {
             {t.home.subtitle}
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <Button size="lg">{t.home.cta.primary}</Button>
-            <Button variant="outline" size="lg">
-              {t.home.cta.secondary}
-            </Button>
+            <Button asChild size="lg" href="/kom-igang">{t.home.cta.primary}</Button>
+            <Button asChild variant="outline" size="lg" href="/om-oss">{t.home.cta.secondary}</Button>
           </div>
         </div>
       </div>
     </MainLayout>
-  )
+  );
 }

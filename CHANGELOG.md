@@ -4,6 +4,37 @@ All notable changes to the DidiS project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.8] - 2024-11-30
+### Added
+- Core Pages
+  - "Om oss" (About Us) page with comprehensive content
+  - Initial "Kom igång" (Get Started) page with step-by-step guide
+  - Structured documentation of platform features
+  - Example use cases and FAQ section
+
+- Language Support
+  - Language switching functionality
+  - Language state management
+  - Context-based translation system
+  - Swedish and English support
+
+### Enhanced
+- Component Architecture
+  - Extracted header into separate component
+  - Improved layout organization
+  - Proper component separation
+  - Consistent component usage
+
+### Fixed
+- Docker development issues
+  - Component update detection
+  - File watching improvements
+  - Cache-related issues
+- Layout organization issues
+  - Header component structure
+  - Component import paths
+  - Layout hierarchy
+
 ## [0.0.7] - 2024-11-09
 ### Added
 - Complex UI Components

@@ -3,15 +3,17 @@
 
 import { cn } from '@/lib/utils'
 import React from 'react'
+import Link from 'next/link'
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'default' | 'secondary' | 'outline' | 'ghost'
   size?: 'sm' | 'md' | 'lg'
-  loading?: boolean  // Changed from isLoading to loading to match usage
+  loading?: boolean
+  href?: string
 }
 
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant = 'default', size = 'md', loading, children, disabled, ...props }, ref) => {
+  ({ className, variant = 'default', size = 'md', loading, children, href, ...props }, ref) => {
     const baseStyles = [
       'inline-flex items-center justify-center rounded-md font-medium transition-colors',
       'focus:outline-none focus:ring-2 focus:ring-offset-2',
@@ -31,16 +33,26 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       lg: 'h-12 px-6 text-lg'
     }
 
+    const finalClassName = cn(
+      baseStyles,
+      variants[variant],
+      sizes[size],
+      className
+    )
+
+    if (href) {
+      return (
+        <Link href={href} className={finalClassName}>
+          {children}
+        </Link>
+      )
+    }
+
     return (
       <button
-        className={cn(
-          baseStyles,
-          variants[variant],
-          sizes[size],
-          className
-        )}
+        className={finalClassName}
         ref={ref}
-        disabled={disabled || loading}
+        disabled={props.disabled || loading}
         {...props}
       >
         {loading ? (
