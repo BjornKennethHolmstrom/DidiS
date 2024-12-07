@@ -4,6 +4,27 @@ All notable changes to the DidiS project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.9] - 2024-12-07
+### Added
+- Proposal System Foundation
+  - Basic proposal creation interface with rich text editing
+  - Proposal viewing and listing pages
+  - Category and subcategory system
+  - Comprehensive status tracking system
+  - Category-based filtering and search
+  - Breadcrumb navigation
+
+### Enhanced
+- Navigation System
+  - Added breadcrumb component for better navigation
+  - Improved proposal discovery flow
+  - Enhanced page organization
+
+### Fixed
+- Component styling issues
+- Navigation structure
+- Utility function imports
+
 ## [0.0.8] - 2024-11-30
 ### Added
 - Core Pages

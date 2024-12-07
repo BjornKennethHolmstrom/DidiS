@@ -152,6 +152,10 @@ export const sv = {
         description: 'Påverka beslut som berör dig'
       }
     },
+    cta: {
+      primary: 'Skapa konto med BankID',
+      secondary: 'Se exempel'
+    },
     howItWorks: {
       title: 'Hur det fungerar',
       description: 'DidiS är en plattform som gör det enkelt att delta i demokratiska processer. Genom säker inloggning med BankID kan du:',
@@ -190,25 +194,45 @@ export const sv = {
       items: [
         {
           question: 'Vem kan använda DidiS?',
-          answer: 'Alla svenska medborgare och personer med svenskt personnummer kan använda DidiS genom att logga in med BankID.'
+          answer: 'Alla svenska medborgare och personer med svenskt personnummer kan använda DidiS genom att logga in med BankID. Plattformen är tillgänglig för alla över 16 år som vill engagera sig i lokala och regionala demokratiska processer.'
         },
         {
           question: 'Hur säkert är det?',
-          answer: 'DidiS använder BankID för säker autentisering och följer högsta säkerhetsstandarder för all datahantering.'
+          answer: 'DidiS använder BankID för säker autentisering och följer högsta säkerhetsstandarder för all datahantering. All data krypteras och lagras säkert inom Sverige. Vi följer GDPR och andra relevanta dataskyddslagar, och genomgår regelbundna säkerhetsgranskningar.'
         },
         {
           question: 'Vilka typer av förslag kan jag skapa?',
-          answer: 'Du kan skapa förslag som rör din kommun eller region inom områden som miljö, infrastruktur, kultur och samhällsutveckling.'
+          answer: 'Du kan skapa förslag som rör din kommun eller region inom många olika områden, till exempel: miljö och hållbarhet, stadsplanering, kultur och fritid, skola och utbildning, äldreomsorg, eller lokaltrafik. Alla förslag granskas för att säkerställa att de följer kommunala riktlinjer och är genomförbara.'
         },
         {
           question: 'Hur följs förslagen upp?',
-          answer: 'Alla förslag följs upp transparent i systemet, och du kan prenumerera på uppdateringar för de förslag du är intresserad av.'
+          answer: 'Alla förslag följs upp transparent i systemet. Du kan följa status i realtid, få notifieringar om uppdateringar, och se hela beslutsprocessen. Kommunen är skyldig att ge återkoppling på alla förslag som når tillräckligt många stödsignaturer.'
+        },
+        {
+          question: 'Vad händer när mitt förslag får tillräckligt med stöd?',
+          answer: 'När ett förslag når tröskelvärdet för stödsignaturer (vanligtvis 1% av kommunens invånare) går det vidare till formell behandling. Kommunen måste då ta upp förslaget för diskussion och beslut i relevant nämnd eller fullmäktige inom en bestämd tidsperiod.'
+        },
+        {
+          question: 'Kan jag vara anonym när jag stödjer förslag?',
+          answer: 'För att säkerställa demokratisk transparens visas ditt förnamn när du skapar eller stödjer förslag. Dock kan du välja att dölja ditt efternamn. I diskussioner kan du välja att vara helt anonym, men all aktivitet verifieras fortfarande via BankID.'
+        },
+        {
+          question: 'Hur kan jag engagera mig utöver att skapa förslag?',
+          answer: 'Det finns många sätt att delta: kommentera och diskutera andras förslag, delta i omröstningar, dela förslag i sociala medier, organisera lokala diskussionsgrupper, eller bli demokratiambassadör i din kommun.'
+        },
+        {
+          question: 'Vad kostar det att använda DidiS?',
+          answer: 'DidiS är helt kostnadsfritt för privatpersoner. Plattformen finansieras av kommunerna som en del av deras demokratiarbete och e-tjänster.'
+        },
+        {
+          question: 'Hur hanteras tillgänglighet på plattformen?',
+          answer: 'DidiS följer WCAG 2.1 riktlinjer för tillgänglighet och är optimerad för skärmläsare. Vi erbjuder även möjlighet att anpassa textstorlek, kontrast och andra visningsalternativ. Innehåll finns tillgängligt på flera språk.'
+        },
+        {
+          question: 'Hur kan jag få hjälp om något inte fungerar?',
+          answer: 'Vi erbjuder support via flera kanaler: direkt i appen, via e-post, telefon under kontorstid, och genom lokala demokratiambassadörer i din kommun. Det finns även utförliga guider och instruktionsvideor tillgängliga.'
         }
       ]
-    },
-    cta: {
-      primary: 'Skapa konto med BankID',
-      secondary: 'Se exempel'
     }
   },
   dashboard: {
@@ -323,6 +347,77 @@ export const sv = {
       alignCenter: 'Centrera',
       alignRight: 'Högerjustera',
       link: 'Lägg till länk'
+    }
+  },
+  proposals: {
+    title: 'Förslag',
+    create: {
+      title: 'Skapa nytt förslag',
+      basicInfo: 'Grundläggande information',
+      titleLabel: 'Titel',
+      titlePlaceholder: 'Ange en beskrivande titel för ditt förslag',
+      summaryLabel: 'Sammanfattning',
+      summaryPlaceholder: 'Beskriv kort vad ditt förslag handlar om',
+      content: 'Innehåll',
+      contentPlaceholder: 'Beskriv ditt förslag i detalj...',
+      submit: 'Skapa förslag',
+      validation: {
+        titleRequired: 'Titel krävs',
+        summaryRequired: 'Sammanfattning krävs',
+        contentRequired: 'Innehåll krävs'
+      }
+    },
+    list: {
+      title: 'Alla förslag',
+      empty: 'Inga förslag hittades'
+    },
+    status: {
+      draft: 'Utkast',
+      collecting_support: 'Samlar stöd',
+      reviewing: 'Under granskning',
+      in_committee: 'I nämnd',
+      in_council: 'I fullmäktige',
+      approved: 'Godkänt',
+      rejected: 'Avslaget',
+      implemented: 'Genomfört'
+    },
+    view: {
+      support: {
+        required: 'Stöd som krävs',
+        current: 'Nuvarande stöd',
+        remaining_days: 'Dagar kvar',
+        support_button: 'Stöd förslaget'
+      },
+      comment: 'Kommentera',
+      share: 'Dela',
+      report: 'Rapportera',
+      status: {
+        active: 'Aktivt',
+        review: 'Under granskning',
+        approved: 'Godkänt',
+        rejected: 'Avslaget',
+        closed: 'Avslutat'
+      },
+      timeline: {
+        title: 'Tidslinje',
+        created: 'Förslaget skapades',
+        collecting: 'Började samla stöd',
+        review: 'Under granskning',
+        committee: 'Skickat till nämnd',
+        council: 'I kommunfullmäktige',
+        decision: 'Beslut fattat'
+      },
+      related: {
+        title: 'Liknande förslag',
+        see_more: 'Se fler liknande förslag',
+        no_related: 'Inga liknande förslag hittades'
+      }
+    },
+    common: {
+      createdBy: 'Skapad av',
+      lastUpdated: 'Senast uppdaterad',
+      supporters: 'stödjare',
+      comments: 'kommentarer'
     }
   }
 }

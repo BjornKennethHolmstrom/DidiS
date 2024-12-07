@@ -328,13 +328,13 @@ We welcome contributions! Please see our [Contributing Guidelines](docs/CONTRIBU
 - Coding standards
 
 ### Development Status
-🚧 **Current Status**: Early Development (v0.0.7)
+🚧 **Current Status**: Early Development (v0.0.9)
 - ✅ Frontend foundation with component library
 - ✅ User dashboard and profile management
 - ✅ Settings and notification system
 - ✅ Rich text editing capabilities
+- ✅ Basic proposal creation and viewing
 - 🚧 Authentication system (in progress)
-- 🚧 Proposal system (planned)
 - 🚧 Voting system (planned)
 
 See our [Project Board](https://github.com/DidiS/DidiS/projects/1) for current progress and planned features.
