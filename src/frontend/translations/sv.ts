@@ -419,6 +419,95 @@ export const sv = {
       supporters: 'stödjare',
       comments: 'kommentarer'
     }
+  },
+  voting: {
+    title: 'Omröstning',
+    votes: 'röster',
+    status: {
+      notStarted: 'Ej påbörjad',
+      active: 'Aktiv',
+      ended: 'Avslutad',
+      voted: 'Röstat'
+    },
+    types: {
+      yes_no: {
+        name: 'Ja/Nej-omröstning',
+        options: {
+          yes: 'Ja',
+          no: 'Nej'
+        }
+      }
+    },
+    ranked: {
+      name: 'Rangordnad omröstning',
+      rankedCount: '{current} av {min}-{max} alternativ rangordnade',
+      instructions: 'Rangordna alternativen genom att dra dem i önskad ordning',
+      minRequired: 'Du måste rangordna minst {min} alternativ',
+      maxAllowed: 'Du kan rangordna upp till {max} alternativ',
+    },
+    multipleChoice: {
+      name: 'Flerval',
+      selectionCount: '{current} av {min}-{max} val gjorda',
+      maxSelectionsReached: 'Max antal val uppnått',
+      minSelectionsRequired: 'Du måste välja minst {min}',
+      yourSelection: 'Ditt val',
+      yourSelections: 'Dina val',
+      instructions: 'Instruktioner för omröstning',
+      minSelectionsRequired: 'Du måste välja minst {min} alternativ',
+      maxSelectionsInfo: 'Du kan välja upp till {max} alternativ',
+      abstainOption: 'Du kan välja att avstå från att rösta',
+    },
+    approval: {
+      name: 'Godkännandeomröstning',
+      description: 'Godkänn alla alternativ du stödjer',
+      minApprovalsRequired: '{current} av minst {min} godkännanden',
+      noMinimum: 'Inga minimikrav för godkännanden',
+      approve: 'Godkänn',
+      disapprove: 'Avslå',
+      approved: 'Godkänd',
+      disapproved: 'Avslagen',
+      instructions: 'Markera alla alternativ du stödjer',
+      yourApprovals: 'Dina godkännanden'
+    },
+    weighted: {
+      name: 'Viktad omröstning',
+      description: 'Fördela poäng mellan alternativen',
+      remainingPoints: 'Återstående poäng',
+      pointValue: 'Poäng',
+      addPoints: 'Lägg till poäng',
+      removePoints: 'Ta bort poäng',
+      errors: {
+        totalPoints: 'Du måste använda exakt {total} poäng (använt: {used})',
+        pointRange: 'Varje alternativ måste ha mellan {min} och {max} poäng',
+        invalidNumber: 'Ogiltigt antal poäng'
+      },
+      instructions: {
+        title: 'Hur man röstar',
+        distribute: 'Fördela totalt {total} poäng mellan alternativen',
+        limits: 'Varje alternativ kan få mellan {min} och {max} poäng',
+        remaining: 'Visa återstående poäng att fördela',
+        abstain: 'Du kan välja att avstå från att rösta'
+      },
+      yourDistribution: 'Din poängfördelning',
+      points: 'poäng',
+    },
+    actions: {
+      vote: 'Rösta',
+      changeVote: 'Ändra röst',
+      abstain: 'Avstå',
+      rank: 'Rangordna',
+      remove: 'Ta bort',
+      moveUp: 'Flytta upp',
+      moveDown: 'Flytta ner',
+    },
+    messages: {
+      startsAt: 'Omröstningen börjar',
+      endedAt: 'Omröstningen avslutades',
+      confirmVote: 'Är du säker på din röst?',
+      voteSuccess: 'Din röst har registrerats',
+      voteError: 'Det gick inte att registrera din röst',
+      loginRequired: 'Du måste logga in för att rösta'
+    }
   }
 }
 

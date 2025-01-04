@@ -4,6 +4,47 @@ All notable changes to the DidiS project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.10] - 2024-01-04
+### Added
+- Voting System Foundation
+  - Database schema for multiple voting types
+  - Yes/No voting implementation
+  - Ranked choice voting implementation
+  - Multiple choice voting implementation
+  - Approval voting implementation
+  - Weighted voting implementation
+  - Point distribution system
+  - Vote status tracking
+  - Abstain functionality
+  - Comprehensive validation system
+
+- Voting Components
+  - Base voting card component
+  - Type-specific voting interfaces
+  - Real-time validation
+  - Progress visualization
+  - Point distribution interface
+  - Vote confirmation displays
+
+- Internationalization
+  - Swedish and English support for voting system
+  - Comprehensive voting-related translations
+  - Contextual help text
+  - Error messages in multiple languages
+
+### Enhanced
+- Component Architecture
+  - Modular voting component design
+  - Shared voting card base
+  - Consistent voting interface patterns
+  - Reusable validation logic
+
+### Fixed
+- Point calculation precision
+- Vote validation feedback
+- Component styling consistency
+- Translation structure
+
 ## [0.0.9] - 2024-12-07
 ### Added
 - Proposal System Foundation
